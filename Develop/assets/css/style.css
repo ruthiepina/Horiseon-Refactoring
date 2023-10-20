@@ -1,50 +1,60 @@
+/** Universal selector to apply styling to all elements. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/** Sets properties for the whole page. */
 body {
     background-color: #d9dcd6;
 }
 
+/** Set styling for the header. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: #ffffff;   /** Set color for the text in the header. */
 }
 
+/** Set the styling for h1 elements with a class="header". */
 .header h1 {
-    display: inline-block;
+    display: inline-block;   /** Allows to place it in the same line and to control h & w. */
     font-size: 48px;
 }
 
+/** Styling of the span element. */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/** Styling of the navigation bar. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
+    float: right;  /** Pushes element to right side of the webpage. */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
+/** Styling for list of links. */
 .header nav ul {
-    list-style-type: none;
+    list-style-type: none; /** Removes bullets from list of links. */
 }
 
+/** Styling of each link. */
 .header nav ul li {
-    display: inline-block;
+    display: inline-block;  /** Places list elements side to side. */
     margin-left: 25px;
 }
 
+/** Styling for link text. */
 a {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none;  /** Eliminates anchor underlining. */
 }
+
 
 .hero {
     height: 800px;
