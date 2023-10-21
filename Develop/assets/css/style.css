@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/** Set styling for the header. */
+/** Styling for the header. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,7 +18,7 @@ body {
     color: #ffffff;   /** Set color for the text in the header. */
 }
 
-/** Set the styling for h1 elements with a class="header". */
+/** Styling for h1 elements with a class="header". */
 .header h1 {
     display: inline-block;   /** Allows to place it in the same line and to control h & w. */
     font-size: 48px;
@@ -55,81 +55,94 @@ a {
     text-decoration: none;  /** Eliminates anchor underlining. */
 }
 
-
+/** Styling for hero element, which takes up most of the webpage and calls users attention to it. */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
+    background-size: cover;  /** Makes the height and width completely cover the container. */
     background-position: center;
 }
 
+/** Styling of the section element containing main content. */
 .content {
     width: 75%;
-    display: inline-block;
+    display: inline-block;  /** Places content element blocks stacked on top of each other*/
     margin-left: 20px;
 }
 
+/** Styling of the independent, self-contained content. */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: #ffffff;  /** Color of the text within the article elements. */
 }
 
+/** Size of the article images. */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/** Puts image on the left side of the article element. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/** Puts image on the right side of the article. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/** Styling of the header element within the article, makes it bigger than content text. */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/** Styling of the content text in the article elements. (Smaller than its header) */
 p {
     font-size: 16px;
 }
 
+/** Styling of the aside element which shows as a sidebar on the webpage. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
-    float: right;
+    float: right;  /** Places the sidebar on right side of webpage. */
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #2589bd;  /** Color of the sidebar. */
 }
 
+/** Styling of the text in the aside element. */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/** Styling of the header elements within the aside element. */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/** Styling of the images in the aside element, which is the sidebar. */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
-    display: block;
+    display: block; 
     margin: 10px auto;
     max-width: 150px;
 }
 
+
+/** Styling of the footer element. */
 .footer {
     padding: 30px;
     clear: both;
@@ -137,6 +150,8 @@ p {
     text-align: center;
 }
 
+
+/** Styling of the header in the footer element. */
 .footer h2 {
     font-size: 20px;
 }
