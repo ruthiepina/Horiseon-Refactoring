@@ -1,193 +1,148 @@
+/** Universal selector to apply styling to all elements. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/** Sets properties for the whole page. */
 body {
     background-color: #d9dcd6;
 }
 
+/** Styling for the header. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: #ffffff;   /** Set color for the text in the header. */
 }
 
+/** Styling for h1 elements with a class="header". */
 .header h1 {
-    display: inline-block;
+    display: inline-block;   /** Allows to place it in the same line and to control h & w. */
     font-size: 48px;
 }
 
+/** Styling of the span element. */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/** Styling of the navigation bar. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
+    float: right;  /** Pushes element to right side of the webpage. */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
+/** Styling for list of links. */
 .header nav ul {
-    list-style-type: none;
+    list-style-type: none; /** Removes bullets from list of links. */
 }
 
+/** Styling of each link. */
 .header nav ul li {
-    display: inline-block;
+    display: inline-block;  /** Places list elements side to side. */
     margin-left: 25px;
 }
 
+/** Styling for link text. */
 a {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none;  /** Eliminates anchor underlining. */
 }
 
-p {
-    font-size: 16px;
-}
-
+/** Styling for hero element, which takes up most of the webpage and calls users attention to it. */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
+    background-size: cover;  /** Makes the height and width completely cover the container. */
     background-position: center;
 }
 
+/** Styling of the section element containing main content. */
+.content {
+    width: 75%;
+    display: inline-block;  /** Places content element blocks stacked on top of each other*/
+    margin-left: 20px;
+}
+
+/** Styling of the independent, self-contained content. */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;  /** Color of the text within the article elements. */
+}
+
+/** Size of the article images. */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/** Puts image on the left side of the article element. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/** Puts image on the right side of the article. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/** Styling of the header element within the article, makes it bigger than content text. */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
+/** Styling of the content text in the article elements. (Smaller than its header) */
+p {
+    font-size: 16px;
+}
+
+/** Styling of the aside element which shows as a sidebar on the webpage. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
-    float: right;
+    float: right;  /** Places the sidebar on right side of webpage. */
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #2589bd;  /** Color of the sidebar. */
 }
 
-.benefit-lead {
+/** Styling of the text in the aside element. */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/** Styling of the header elements within the aside element. */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
+/** Styling of the images in the aside element, which is the sidebar. */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block; 
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/** Styling of the footer element. */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +150,8 @@ p {
     text-align: center;
 }
 
+
+/** Styling of the header in the footer element. */
 .footer h2 {
     font-size: 20px;
 }
