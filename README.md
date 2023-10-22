@@ -2,7 +2,28 @@
 
 ## Description
 
-The motivation for this project was to be able to practice and implement what the Module 01: HTML, CSS, & Git taught me. I built from the original project to improve (refactor) the inclusion of proper accessibility standards for a marketing agency site, which in turn would better position the site in search engines like Google. Some of the refactoring done include:  
+Code refactoring to improve accessibility on a webpage for Horiseon, a marketing agency.
+
+## Table of Contents
+
+- [About The Project](#about-the-project)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Problems Solved](#problems-solved)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## About The Project
+
+The motivation for this project was to be able to practice and implement what the Module 01: HTML, CSS, & Git taught me. I built from the original code to improve (refactor) the inclusion of proper accessibility standards for a marketing agency site, which in turn would better position the site in search engines like Google.
+
+## User Story
+
+
+
+ Some of the refactoring done include:  
 
 - the use of semantic HTML elements and logical/sequential structure of them
 - making my images meet accessibility standards by adding alt attributes
@@ -21,6 +42,11 @@ Screenshot of the final project compared to the mock up provided:
 
 
 ## Credits
+
+Cloned the starter code into my own repository from
+
+
+
 
 - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide\
 
