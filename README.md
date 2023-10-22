@@ -61,7 +61,9 @@ Screenshot of the final project compared to the mock up provided:
 
 Cloned the starter code into my own repository from
 
+https://github.com/coding-boot-camp/urban-octo-telegram.git
 
+Original authors of this project are Xandromus Xander Rapstine and Georgeyoo George
 
 
 Following sources are where I searched for syntax information, different css style elements, etc.
