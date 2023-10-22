@@ -2,7 +2,8 @@
 
 ## Description
 
-The motivation for this project was to be able to practice and implement what the Module 01: HTML, CSS, & Git taught me. I built from the original project to improve (refactor) the inclusion of proper accessibility standards for a marketing agency site, which in turn would better position the site in search engines like Google. Some of the refactoring done include:
+The motivation for this project was to be able to practice and implement what the Module 01: HTML, CSS, & Git taught me. I built from the original project to improve (refactor) the inclusion of proper accessibility standards for a marketing agency site, which in turn would better position the site in search engines like Google. Some of the refactoring done include:  
+
 - the use of semantic HTML elements and logical/sequential structure of them
 - making my images meet accessibility standards by adding alt attributes
 - improved SEO of the site by adding a descriptive title element
@@ -10,17 +11,14 @@ The motivation for this project was to be able to practice and implement what th
 
 ## Installation (Access?)
 
-The following link is the GitHub live URL of this project
-https://ruthiepina.github.io/Horiseon-Refactoring/#social-media-marketing
+The following link is the GitHub live URL of this project:
 
-Screenshot of the final project compared to the mock up provided
+https://ruthiepina.github.io/Horiseon-Refactoring   
 
+Screenshot of the final project compared to the mock up provided:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+    ![](./assets/images/final challenge 1 screenshot.PNG>)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
