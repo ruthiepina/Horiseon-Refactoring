@@ -24,19 +24,15 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide\
+- https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide\
 
-https://www.w3schools.com/html/html5_semantic_elements.asp#gsc.tab=0
+- https://www.w3schools.com/html/html5_semantic_elements.asp#gsc.tab=0
 
-https://www.w3schools.com/html/html_css.asp
+- https://www.w3schools.com/html/html_css.asp
 
-https://www.w3schools.com/html/html_classes.asp
+- https://www.w3schools.com/html/html_classes.asp
 
-https://www.w3schools.com/html/html_layout.asp
-
-
-List your collaborators, if any, with links to their GitHub profiles.
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+- https://www.w3schools.com/html/html_layout.asp
 
 ## License
 
