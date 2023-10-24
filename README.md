@@ -59,7 +59,7 @@ The following link is the GitHub live URL of this project:
 [Horiseon Refactoring](https://ruthiepina.github.io/Horiseon-Refactoring).   
 
 Screenshot of the final project.
-![Final-Project](./assets/images/final challenge 1 screenshot.PNG)
+![Final-Project](./assets/images/screenshot.PNG)
 
 ## Credits
 
