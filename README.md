@@ -20,23 +20,28 @@ The motivation for this project was to be able to practice and implement what th
 
 ## User Story
 
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+- AS A marketing agency
+- I WANT a codebase that follows accessibility standards
+- SO THAT our own site is optimized for search engines
 
 ## Acceptance Criteria
 
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+- GIVEN a webpage meets accessibility standards
+
+- WHEN I view the source code
+- THEN I find semantic HTML elements
+
+- WHEN I view the structure of the HTML elements
+- THEN I find that the elements follow a logical structure independent of styling and positioning
+
+- WHEN I view the icon and image elements
+- THEN I find accessible alt attributes
+
+- WHEN I view the heading attributes
+- THEN they fall in sequential order
+
+- WHEN I view the title element
+- THEN I find a concise, descriptive title
 
 ## Problems Solved (Could this be usage section?)
 
@@ -55,7 +60,7 @@ The following link is the GitHub live URL of this project:
 
 Screenshot of the final project compared to the mock up provided:
 
-    ![](./assets/images/final challenge 1 screenshot.PNG>)
+    ![](./assets/images/final challenge 1 screenshot.PNG)
 
 ## Credits
 
