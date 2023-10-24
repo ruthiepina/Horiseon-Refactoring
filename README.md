@@ -45,7 +45,7 @@ The motivation for this project was to be able to practice and implement what th
 
 ## Problems Solved (Could this be usage section?)
 
- Some of the refactoring done include the following:  
+ Some of the refactoring done include the following: 
 
 - the use of semantic HTML elements and logical/sequential structure of them
 - making my images meet accessibility standards by adding alt attributes
@@ -59,7 +59,7 @@ The following link is the GitHub live URL of this project:
 [Horiseon Refactoring](https://ruthiepina.github.io/Horiseon-Refactoring).   
 
 Screenshot of the final project.
-![Final-Project](./assets/images/final challenge 1 screenshot.PNG)
+![Final-Project](./assets/images/screenshot.PNG)
 
 ## Credits
 
